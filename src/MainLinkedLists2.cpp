@@ -14,6 +14,7 @@ Objectives of LinkedLists2 Lesson:
 #include <stdio.h>
 #include <malloc.h>
 
+
 #include "FunctionHeadersLinkedLists2.h"
 struct node {
 	int num;
@@ -59,16 +60,16 @@ int main(){
 
 	//Test reverse LinkedList
 
-	struct node *result = reverseLinkedList(createList(289));
-
-	struct node *temp1;
+	int result = linkedListMedian(createList(2559));
+	printf("%d\n", result);
+	/*struct node *temp1;
 	temp1 = result;
 
 	while (temp1 != NULL)
 	{
 		printf("%d\n", temp1->num);
 		temp1 = temp1->next;
-	}
+	} */
 
 	return 0;
 }
