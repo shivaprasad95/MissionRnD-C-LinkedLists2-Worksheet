@@ -60,16 +60,16 @@ int main(){
 
 	//Test reverse LinkedList
 
-	int result = linkedListMedian(createList(2559));
-	printf("%d\n", result);
-	/*struct node *temp1;
+	struct node *result = insertAtEveryKthNode(createList(222), 2);
+	
+	struct node *temp1;
 	temp1 = result;
 
 	while (temp1 != NULL)
 	{
 		printf("%d\n", temp1->num);
 		temp1 = temp1->next;
-	} */
+	} 
 
 	return 0;
 }
