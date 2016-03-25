@@ -60,7 +60,7 @@ int main(){
 
 	//Test reverse LinkedList
 
-	struct node *result = insertAtEveryKthNode(createList(222), 2);
+	struct node *result = merge2LinkedLists(createList(123), createList(123));
 	
 	struct node *temp1;
 	temp1 = result;
